@@ -25,7 +25,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score,classification_report,confusion_matrix
 
-df = pd.read_csv("/content/NLP_TEXT.csv")
+df = pd.read_csv("NLP_TEXT.csv")
 
 df.head()
 
@@ -85,6 +85,3 @@ pipeline_file = open("NLP_Model.pkl","wb")
 joblib.dump(pipe_lr,pipeline_file)
 pipeline_file.close()
 
-ex1 = "Valimai Naage Vera Mari is So Enjoyable and Fans are very happy"
-
-pipe_lr.predict([ex1])
