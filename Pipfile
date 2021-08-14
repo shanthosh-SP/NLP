@@ -16,7 +16,8 @@ joblib="*"
 neattext="*"
 openpyxl="*"
 numpy="*"
-
+pickle="*"
+dill="*"
 
 [requires]
 python_version = "3.9"
