@@ -16,7 +16,7 @@ joblib="*"
 neattext="*"
 openpyxl="*"
 numpy="*"
-pickle="*"
+pickle5="*"
 dill="*"
 
 [requires]
