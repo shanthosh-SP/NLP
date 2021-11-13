@@ -3,6 +3,12 @@ import altair as alt
 import pandas as pd 
 import numpy as np 
 
+from PIL import Image
+
+img1=Image.open('logo1.png')
+
+st.set_page_config(page_title="EmCL",page_icon=img1)
+
 import joblib 
 pipe_lr = joblib.load(open("NLP_Model.pkl","rb"))
 
