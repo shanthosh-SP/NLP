@@ -5,7 +5,7 @@ import numpy as np
 
 from PIL import Image
 
-img1=Image.open('logo1.png')
+img1=Image.open('logo.jpg')
 
 st.set_page_config(page_title="EmCL",page_icon=img1)
 
